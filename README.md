@@ -57,7 +57,9 @@ if (user==null || user.getPassword()==null || user.getEmail()==null)
 3. Teст Случај: 
 
 корисникот не е нула, user.getPassword() не е нула, user.getEmail() е нула
+
 if (user==null || user.getPassword()==null || user.getEmail()==null)
+
     корисникот не е нула
     user.getPassword() не е нула
     user.getEmail() е нула
@@ -66,14 +68,19 @@ if (user==null || user.getPassword()==null || user.getEmail()==null)
 4.Тест случај: 
   
    Ниту една од вредностите не е нула
+   
 if (user==null || user.getPassword()==null || user.getEmail()==null)
+
     корисникот не е нула
     user.getPassword() не е нула
     user.getEmail() не е нула
 
 5. Тест случај: 
+
     корисникот е нула, user.getPassword() и user.getEmail() не се нула
+    
 if (user==null || user.getPassword()==null || user.getEmail()==null)
+
     корисникот е нула
     user.getPassword() не е нула
     user.getEmail() не е нула
