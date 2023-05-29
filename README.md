@@ -30,8 +30,11 @@
 
 
 1.Тест случај: 
+
 Сите вредности се нула
+
 if (user==null || user.getPassword()==null || user.getEmail()==null)
+
     корисникот е нула
     user.getPassword() е нула
     user.getEmail() е нула
@@ -39,9 +42,13 @@ if (user==null || user.getPassword()==null || user.getEmail()==null)
     
 
 2. Тест случај: 
+
 корисникот не е нула, 
+
 user.getPassword() е нула, user.getEmail() не е нула
+
 if (user==null || user.getPassword()==null || user.getEmail()==null)
+
     корисникот не е нула
     user.getPassword() е нула
     user.getEmail() не е нула
